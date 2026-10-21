@@ -1,0 +1,51 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 项目虚拟环境（体积巨大，不提交） =====
+rag_mineru_env/
+
+# ===== 向量数据库（运行时生成，可重新构建） =====
+chroma_db/
+chroma_db_v2/
+
+# ===== 模型文件（体积大，需自行下载） =====
+models/
+_ms_tmp/
+
+# ===== MinerU 相关产物 =====
+mineru_output/
+mineru_probe/
+mineru_config.json
+mineru_config_notable.json
+mineru_probe.log
+mineru_probe2.log
+mineru_probe3.log
+model_download.log
+
+# ===== 日志与临时文件 =====
+*.log
+error_log.txt
+pip_install.log
+pip_install2.log
+
+# ===== 运行时生成物 =====
+build_summary.json
+verify_report.md
+
+# ===== 备份目录 =====
+backup_*/
+
+# ===== 草稿文件 =====
+python
+
+# ===== IDE / 系统 =====
+.workbuddy/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
